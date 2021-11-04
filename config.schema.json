@@ -13,6 +13,12 @@
         "default": "Arlo",
         "required": true
       },
+      "userId": {
+        "type": "string",
+        "title": "userId",
+        "placeholder": "XXXXX-XXX-XXXXX",
+        "required": false
+      },
       "email": {
         "type": "string",
         "title": "E-mail",
@@ -24,6 +30,12 @@
         "title": "Password",
         "placeholder": "Your Arlo Password",
         "required": true
+      },
+      "token": {
+        "type": "string",
+        "title": "Token",
+        "placeholder": "Your Arlo Token",
+        "required": false
       },
       "interval": {
         "type": "integer",

@@ -251,8 +251,11 @@ class ArloPlatform {
             }
           }.bind(this)
         );
-
+        if (this.config.token && this.config.userId) {
+          arlo.auth(this.config.token, this.config.userId);
+        } else {
         arlo.login(this.config.email, this.config.password);
+        }
       }.bind(this)
     );
   }

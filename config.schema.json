@@ -129,6 +129,8 @@
     "name",
     "email",
     "password",
+    "token",
+    "userId",
     {
       "type": "fieldset",
       "title": "Streaming Settings",

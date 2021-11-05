@@ -35,6 +35,6 @@
     "debug": "^4.1.1",
     "ffmpeg-for-homebridge": "^0.0.9",
     "ip": "^1.1.5",
-    "node-arlo": "git+https://github.com/lcalvy/node-arlo"
+    "node-arlo": "github:lcalvy/node-arlo"
   }
 }
